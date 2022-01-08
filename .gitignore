@@ -10,3 +10,10 @@
 /tests/bin/Debug
 /tests/obj/Debug
 /tests/.vscode
+/src/MiniMvvm/bin/Release
+/src/MiniMvvm/obj/Release
+/src/MiniMvvm/BasicMiniMvvm.nuspec
+/src/MiniMvvm/BasicMiniMvvm.nuspec.bak
+/src/MiniMvvm/MiniMvvm.1.0.0.nupkg
+/src/MiniMvvm/MiniMvvm.nuspec
+/src/MiniMvvm/MiniMvvm.nuspec.bak

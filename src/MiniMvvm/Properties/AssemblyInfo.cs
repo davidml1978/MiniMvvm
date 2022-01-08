@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MiniMvvm")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("BasicMiniMvvm")]
+[assembly: AssemblyDescription("MiniMvvm is a light library for legacy projects using .net framework 4.0 .")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MiniMvvm")]
+[assembly: AssemblyCompany("Davidml")]
+[assembly: AssemblyProduct("BasicMiniMvvm")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
