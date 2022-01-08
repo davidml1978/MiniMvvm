@@ -3,3 +3,10 @@
 ################################################################################
 
 /src/MiniMvvm/bin/Debug
+/src/MiniMvvm/.vs/MiniMvvm/v17
+/src/MiniMvvm/.vs/MiniMvvm
+/src/MiniMvvm/obj/Debug
+/src/packages
+/tests/bin/Debug
+/tests/obj/Debug
+/tests/.vscode
