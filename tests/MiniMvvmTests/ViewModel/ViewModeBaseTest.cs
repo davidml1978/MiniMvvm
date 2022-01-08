@@ -1,13 +1,11 @@
-﻿
-
-using MiniMvvmTestes.Mocks;
+﻿using MiniMvvmTests.Mocks;
 
 using Xunit;
 
 
-namespace MiniMvvmTestes.ViewModel
+namespace MiniMvvmTests.ViewModel
 {
-    public class BindableBaseFixture
+    public class ViewModeBaseTest
     {
         [Fact]
         public void SetPropertyMethodShouldSetTheNewValue()

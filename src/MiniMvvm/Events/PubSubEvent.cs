@@ -31,17 +31,22 @@ namespace MiniMvvm.Events
         }
 
         /// <summary>
-        /// Unsubscribes the specified subscriber.
+        /// Unsubscripted the specified subscriber.
         /// </summary>
         /// <param name="subscriber">The subscriber.</param>
         public void Unsubscribe(Action<TPayload> subscriber)
         {
             lock (Subscriptions)
             {
-                var eventSubscription = Subscriptions.Cast<EventSubscription<TPayload>>().FirstOrDefault(evt => evt.Action == subscriber);
-                if (eventSubscription != null)
+                if (Subscriptions.ContainsKey(typeof(TPayload)))
                 {
-                    base.UnSubscribe(eventSubscription);
+                    var result = Subscriptions[typeof(TPayload)] as List<EventSubscription<TPayload>>;
+                    if (result != null)
+                    {
+                        var eventAction = result.FirstOrDefault(x => x.Action == subscriber);
+                        if (eventAction != null)
+                            base.UnSubscribe(eventAction);
+                    }
                 }
             }
         }

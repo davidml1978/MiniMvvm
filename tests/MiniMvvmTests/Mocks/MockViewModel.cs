@@ -1,6 +1,6 @@
 ﻿using MiniMvvm.ViewModels;
 
-namespace MiniMvvmTestes.Mocks
+namespace MiniMvvmTests.Mocks
 {
     public class MockViewModel : ViewModelBase
     {

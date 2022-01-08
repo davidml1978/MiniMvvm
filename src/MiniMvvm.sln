@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMiniMvvm", "MiniMvvm\BasicMiniMvvm.csproj", "{92647079-A247-4139-A148-5E919CF6DEB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{57B607CB-5757-4A4E-99B8-149B8442C426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMvvmTests", "..\tests\MiniMvvmTests\MiniMvvmTests.csproj", "{A066E470-25D9-4C62-BEA8-E712EEAD49DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{92647079-A247-4139-A148-5E919CF6DEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92647079-A247-4139-A148-5E919CF6DEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92647079-A247-4139-A148-5E919CF6DEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A066E470-25D9-4C62-BEA8-E712EEAD49DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A066E470-25D9-4C62-BEA8-E712EEAD49DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A066E470-25D9-4C62-BEA8-E712EEAD49DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A066E470-25D9-4C62-BEA8-E712EEAD49DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A066E470-25D9-4C62-BEA8-E712EEAD49DC} = {57B607CB-5757-4A4E-99B8-149B8442C426}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16AEAD78-63AC-4741-B01B-73524CB3168D}

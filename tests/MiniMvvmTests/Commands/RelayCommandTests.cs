@@ -6,12 +6,12 @@ using System.Windows.Input;
 
 using Xunit;
 
-namespace MiniMvvmTestes.Commands
+namespace MiniMvvmTests.Commands
 {
     /// <summary>
     /// Summary description for DelegateCommandFixture
     /// </summary>
-    public class RelayCommandFixture : ViewModelBase
+    public class RelayCommandTests : ViewModelBase
     {
         [Fact]
         public void WhenConstructedWithGenericTypeOfObject_InitializesValues()
