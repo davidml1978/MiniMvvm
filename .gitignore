@@ -20,3 +20,5 @@
 /src/.vs/MiniMvvm/v16/TestStore/0
 /tests/MiniMvvmTests/bin/Debug
 /tests/MiniMvvmTests/obj/Debug
+/tests/MiniMvvmTests/obj/Release
+/src/MiniMvvm/BasicMiniMvvm.1.0.1.nupkg
