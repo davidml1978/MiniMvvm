@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace MiniMvvm.Services
+namespace BasicMiniMvvm.Services.MessageBoxService
 {
     /// <summary>
     /// Class that manage MessageBox 

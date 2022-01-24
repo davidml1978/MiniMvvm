@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MiniMvvm.Events
+namespace BasicMiniMvvm.Events
 {
     /// <summary>
     /// IEventSubscription

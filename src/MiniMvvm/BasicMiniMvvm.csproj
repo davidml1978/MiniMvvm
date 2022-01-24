@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{92647079-A247-4139-A148-5E919CF6DEB4}</ProjectGuid>
     <OutputType>library</OutputType>
-    <RootNamespace>MiniMvvm</RootNamespace>
+    <RootNamespace>BasicMiniMvvm</RootNamespace>
     <AssemblyName>BasicMiniMvvm</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -60,11 +60,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -75,16 +70,14 @@
     <Compile Include="Services\FileDialogService\OpenFileDialogService.cs" />
     <Compile Include="Services\FileDialogService\SaveFileDialogService.cs" />
     <Compile Include="Services\IDialogService.cs" />
+    <Compile Include="Services\IInputBoxService.cs" />
+    <Compile Include="Services\InputBox.cs" />
     <Compile Include="Services\IUserControlService.cs" />
     <Compile Include="Services\MessageBoxService\IMessageDialogService.cs" />
     <Compile Include="Services\MessageBoxService\MessageDialogButton.cs" />
     <Compile Include="Services\MessageBoxService\MessageDialogResult.cs" />
     <Compile Include="Services\MessageBoxService\MessageDialogService.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

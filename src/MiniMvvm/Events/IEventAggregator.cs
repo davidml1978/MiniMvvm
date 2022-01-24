@@ -1,4 +1,4 @@
-﻿namespace MiniMvvm.Events
+﻿namespace BasicMiniMvvm.Events
 {
     /// <summary>
     /// IEventAggregator interface

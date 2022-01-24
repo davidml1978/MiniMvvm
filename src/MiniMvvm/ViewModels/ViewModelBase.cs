@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace MiniMvvm.ViewModels
+namespace BasicMiniMvvm.ViewModels
 {
     /// <summary>
     /// ModelViewBase

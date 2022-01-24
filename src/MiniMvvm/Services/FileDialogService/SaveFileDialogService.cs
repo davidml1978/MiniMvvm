@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
 
-namespace MiniMvvm.Services
+namespace BasicMiniMvvm.Services.FileDialogService
 {
     public class SaveFileDialogService : FileDialogService
     {

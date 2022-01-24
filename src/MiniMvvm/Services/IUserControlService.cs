@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 
-namespace MiniMvvm.Services
+namespace BasicMiniMvvm.Services
 {
     /// <summary>
     /// IUserControlService interface

@@ -1,4 +1,4 @@
-﻿namespace MiniMvvm.Services
+﻿namespace BasicMiniMvvm.Services.MessageBoxService
 {
     /// <summary>
     /// MessageDialogButton for MessageBox

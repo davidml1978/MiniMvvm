@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MiniMvvm.Events
+namespace BasicMiniMvvm.Events
 {
     /// <summary>
     /// Class that manages publication and subscription to events.

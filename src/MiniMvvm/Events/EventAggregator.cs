@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace MiniMvvm.Events
+namespace BasicMiniMvvm.Events
 {
     /// <summary>
     /// EventAggregator class

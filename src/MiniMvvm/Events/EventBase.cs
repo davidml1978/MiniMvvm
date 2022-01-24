@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-namespace MiniMvvm.Events
+namespace BasicMiniMvvm.Events
 {
     /// <summary>
     /// Base class for Publish and Subscribe

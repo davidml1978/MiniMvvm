@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace MiniMvvm.Commands
+namespace BasicMiniMvvm.Commands
 {
     /// <summary>
     /// Implementation of ICommand interface
